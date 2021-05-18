@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 85%;
+    margin-left: 7%;
+}
+
+.one{
+    height: 60px;
+    margin: 0;
+    background-color: white;
+}
+
+.one nav{
+    margin: 0px;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-content: center;
+    background-color: white;
+    z-index: -50px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+
+#nav span{
+    margin-top: 10px;
+    margin-right: 0px;
+    align-content: center;
+}
+#nav span input{
+    height: 70%;
+}
+#nav span img{
+    width:15px;
+}
+
+
+.button li{
+    border-style: dotted;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 2px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 15px;
+    background-color: white;
+    color: rgb(58, 58, 58);
+
+    border-radius: 20px;
+}
+.button li:hover{
+    background-color: darkgrey;
+    color: white;
+}
+
+nav *{
+    margin-right: 15px;
+}
+#iitg{
+    width: 80%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.two img{
+    width: 100%;
+    padding: 3%;
+}
+.two span{
+    width: 40%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.two span h2{
+    text-align: center;
+}
+
+.two span p{
+    margin-top: 0px;
+    padding: 5%;
+    color: dimgrey;
+    font-size: 1.5em;
+    font-weight: 1000;
+}
+
+.three h2{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: rgb(58, 58, 58);
+}
+.three div{
+    display: flex;
+    justify-content: space-around;
+}
+.three div span{
+    width: 23%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.three div span img{
+    width: 100%;
+    padding: 5%;
+}
+.three span p{
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: dimgrey;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.three{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.four h2{
+    text-align: center;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: rgb(58, 58, 58);
+}
+.four div{
+    display: flex;
+    justify-content: space-around;
+}
+.four div span{
+    width: 18%;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.four div span img{
+    width: 100%;
+    padding: 5%;
+}
+.four span p{
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: dimgrey;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.four{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.five span p{
+    margin-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: dimgrey;
+    font-size: 1em;
+    font-weight: 1000;
+}
+.five_1{
+    width: 40%;
+}
+.five{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.five span div{
+    display: flex;
+}
+.five_{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.five_ span{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+.five_ span img{
+    height: 100%;
+}
+
+#iitg{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+}
